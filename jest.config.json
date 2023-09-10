@@ -1,0 +1,21 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "rootDir": "./",
+  "modulePaths": ["<rootDir>/core/"],
+  "moduleNameMapper": {
+    "@application/(.*)": "<rootDir>/core/application/$1",
+    "@domain/(.*)": "<rootDir>/core/domain/$1",
+    "@protocols/(.*)": "<rootDir>/core/domain/protocols/$1",
+    "@models/(.*)": "<rootDir>/core/domain/models/$1",
+    "@enum/(.*)": "<rootDir>/src/domain/models/enum/$1",
+    "@repositories/(.*)": "<rootDir>/src/domain/repositories/$1",
+    "@test/(.*)": "<rootDir>/src/test/$1"
+  },
+  "testMatch": ["**/__tests__/**/*.ts?(x)", "**/?(*.)+(spec|test).ts?(x)"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "collectCoverage": true,
+  "coverageReporters": ["lcov", "text-summary"]
+}
