@@ -1,5 +1,5 @@
-import { ControlEntity } from "@domain/models/control.entity";
-import { ControlActionEnum } from "@domain/models/enum/control-action.enum";
+import { ControlEntity } from "@domain/entities/control.entity";
+import { ControlActionEnum } from "@domain/entities/enum/control-action.enum";
 import { ErrorProtocol } from "@domain/protocols/error.protocol";
 import { IFindProductByIdRepository } from "@domain/repositories/find-product-by-id.repository";
 import { IManageControlRepository } from "@domain/repositories/manage-control.repository";

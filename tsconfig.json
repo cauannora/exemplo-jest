@@ -33,8 +33,8 @@
       "@domain/*": [
         "core/domain/*"
       ],
-      "@models/*": [
-        "core/domain/models/*"
+      "@entities/*": [
+        "core/domain/entities/*"
       ],
       "@protocols/*": [
         "core/domain/protocols/*"

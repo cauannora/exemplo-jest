@@ -1,4 +1,4 @@
-import { ProductEntity } from "@domain/models/product.entity";
+import { ProductEntity } from "@domain/entities/product.entity";
 
 export interface IUpdateProductDTO {
   name?: string;

@@ -1,4 +1,4 @@
-import { ControlActionEnum } from "@enum/control-action.enum";
+import { ControlActionEnum } from "./enum/control-action.enum";
 import { ProductEntity } from "./product.entity";
 
 export class ControlEntity {

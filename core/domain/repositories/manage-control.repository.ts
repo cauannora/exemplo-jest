@@ -1,5 +1,5 @@
-import { ControlEntity } from "@domain/models/control.entity";
-import { ControlActionEnum } from "@domain/models/enum/control-action.enum";
+import { ControlEntity } from "@domain/entities/control.entity";
+import { ControlActionEnum } from "@domain/entities/enum/control-action.enum";
 
 export interface IManageControlDTO {
   productId: number;
